@@ -27,7 +27,7 @@ class handDetector():
         if self.results.multi_hand_landmarks:
             for handLms in self.results.multi_hand_landmarks:
                 if draw:
-#                     self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS)
+                     
                       self.drawSpec = self.mpDraw.DrawingSpec(color=(0, 255, 255), thickness=2, circle_radius=4)
                       self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS, landmark_drawing_spec=self.drawSpec)
         return img
@@ -119,17 +119,7 @@ while True:
     lmlist = detector.findPosition(img, draw=False)
     
 
-#     if lmlist:
-#         for item in lmlist:
-#             if len(item) > 0 and item[0][0] == 2:
-#                 print(item)
-#     for item in lmlist[0]:
-#        if item[0] == 4:
-#            cv2.circle(img, (item[1], item[2]), 15, (255, 0, 255), cv2.FILLED)
-#        if item[0] == 8:
-#            cv2.circle(img, (item[1], item[2]), 15, (255, 0, 255), cv2.FILLED)
-     # Assuming you have detected the landmarks for the forefinger (id=4) and thumb (id=8)
-    # Assuming you have detected the landmarks for the forefinger (id=4) and thumb (id=8)
+
     if lmlist and len(lmlist) > 0 and len(lmlist[0]) > 8:
        x1, y1 = lmlist[0][4][1], lmlist[0][4][2]
        x2, y2 = lmlist[0][8][1], lmlist[0][8][2]
