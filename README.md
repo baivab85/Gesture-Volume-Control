@@ -1,6 +1,8 @@
 # Gesture-Volume-Control
-# Gesture-Volume-Control
+
 OpenCV Project
+
+Use Jupyter notebook or PyCharm for run the project
 
 Below are the steps for installing the required Python packages for our project:
 
