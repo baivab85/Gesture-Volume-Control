@@ -2,7 +2,7 @@
 
 OpenCV Project
 
-Use Jupyter notebook or PyCharm for run the project
+Use Jupyter notebook or PyCharm to run the project
 
 Below are the steps for installing the required Python packages for our project:
 
