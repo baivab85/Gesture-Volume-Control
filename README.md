@@ -9,17 +9,23 @@ OpenCV is a popular computer vision library that you can install using the follo
 
 pip install opencv-python
 
+
+
 MediaPipe Installation:
 
 MediaPipe is a library for building applications involving perception and understanding of human poses, hand tracking, and more. Install it with the following command:
 
 pip install mediapipe --user
 
+
+
 PyCaw Installation:
 
 PyCaw is a Python library for working with the Windows Audio API (WASAPI). Install it using the following command:
 
 pip install pycaw
+
+
 
 
 After executing these commands, you should have all the necessary packages installed on your Python environment. Ensure that your Python environment is properly set up and activated before running these commands.
